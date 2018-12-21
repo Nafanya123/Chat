@@ -31,8 +31,6 @@ public class Client {
                     new WriteMsg(out, reader).start();
                     String serverWord = in.readLine();
                     System.out.println(serverWord);
-                    in.close();
-                    out.close();
                 }
 
             } catch (IOException e){
